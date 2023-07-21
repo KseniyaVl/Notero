@@ -1,14 +1,20 @@
 @transition: .4s ease;
+@color-violet: #6953D3;
+@color-gray-333: #333;
+@color-gray-444: #444;
 
 body {
     width: 1280px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
+    .navbar {
+        display: none;
+    }
     .chapter {
         text-align: center;
         font-size: 17px;
         font-weight: 500;
-        color: #6953D3;
+        color: @color-violet;
         border: 1px solid #edebf9;
         background-color: #edebf9;
         border-radius: 7px;
@@ -19,12 +25,12 @@ body {
     }
     h2 {
         font-size: 40px;
-        color:#333;
+        color:@color-gray-333;
         font-weight: 700;
         margin: 0 auto;
     }
     .gradient {
-        background: linear-gradient(90deg, #6953D3 33%, #8566F1 40%, #A14EEE,#F98085);
+        background: linear-gradient(90deg, @color-violet 33%, #8566F1 40%, #A14EEE,#F98085);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -33,7 +39,7 @@ body {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: #6953D3;
+        background-color: @color-violet;
         color: #fff;
         font-size: 20px;
         font-weight: 500;
@@ -49,15 +55,15 @@ body {
     .inverse {
         display: flex;
         align-items: center;
-        color: #333;
+        color: @color-gray-333;
         font-size: 17px;
         font-weight: 500;
         transition: @transition;
         i {      
             font-size: 36px;
-            color: #6953D3;                  
+            color: @color-violet;                  
             padding: 12px 12px 12px 17px;
-            border: 1px solid #6953D3;
+            border: 1px solid @color-violet;
             border-radius: 50%;
             margin-right: 13px;
         }
@@ -102,9 +108,9 @@ body {
                 padding-left: 43px;
                 font-size: 17px;
                 font-weight: 700;
-                color: #444;
+                color: @color-gray-444;
                 &:hover {
-                    color: #6953D3;       
+                    color: @color-violet;       
                 }
             }
             li:nth-child(3n+1), li:nth-child(4n+1) {
@@ -135,7 +141,7 @@ body {
                 margin-right: 61px;
             }
             .dropdown-content_menu a {
-                color: #444;
+                color: @color-gray-444;
                 font-weight: 500;
                 padding: 2px 0 2px 30px;
                 text-decoration: none;
@@ -148,7 +154,7 @@ body {
             }
             .dropdown-content_menu a:hover {
                 background-color: #E9E5F9;
-                color: #6953D3;
+                color: @color-violet;
             }
             .dropdown_menu:hover .dropdown-content_menu {
                 display: block;
@@ -164,10 +170,10 @@ body {
             }
             button {
                 margin-right: 80px;
-                color: #444;
+                color: @color-gray-444;
                 font-weight: 400;
                 font-size: 9px;
-                border: 1px solid #444;
+                border: 1px solid @color-gray-444;
                 border-radius: 13px;
                 padding: 7px 11px;
                 i {
@@ -180,7 +186,7 @@ body {
         text-align: center;
         .banner {
             height: 78px;
-            background-color: #6953D3;
+            background-color: @color-violet;
             background-image: url(../img/bgr_banner.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -189,7 +195,7 @@ body {
             align-items: center;
             padding-bottom: 12px;
             button {
-                color: #444;
+                color: @color-gray-444;
                 font-weight: 500;
                 font-size: 12px;
                 padding: 6px 17px 6px 18px;
@@ -235,13 +241,13 @@ body {
                 h1 {
                     font-size: 60px;
                     font-weight: 600;
-                    color: #333;
+                    color: @color-gray-333;
                     margin-bottom: 19px;
                 }
                 .inside {
                     font-size: 20px;
                     font-weight: 500;
-                    color: #333;
+                    color: @color-gray-333;
                     opacity: .6;
                     margin-bottom: 50px;
                 }
@@ -269,7 +275,7 @@ body {
                     p {
                         font-size: 14px;
                         font-weight: 600;
-                        color: #333;
+                        color: @color-gray-333;
                         margin-right: 78px;
                         margin-bottom: 0;
                     }
@@ -294,9 +300,9 @@ body {
             font-size: 30px;
             font-weight: 600;
             text-align: center;
-            color: #333;
+            color: @color-gray-333;
             span {
-                color: #6953D3;
+                color: @color-violet;
             }
         }
         .partners {
@@ -312,7 +318,7 @@ body {
             }
         }
         .line {
-            border-bottom: 1px solid #444;
+            border-bottom: 1px solid @color-gray-444;
             margin: 55px 80px 22px;
         }
         .chapter {
@@ -409,7 +415,7 @@ body {
                     }
                     .collapsed {
                         background-color: transparent;
-                        color: #444;
+                        color: @color-gray-444;
                     }
                     .accordion-body {
                         font-weight: 500;
@@ -432,16 +438,16 @@ body {
                 p {
                     width: 110px;
                     text-align: left;
-                    color: #333;
+                    color: @color-gray-333;
                     font-size: 10px;
                     font-weight: 500;
                     margin-bottom: 0;
-                    border-left: 1px solid #333;
+                    border-left: 1px solid @color-gray-333;
                     padding-left: 6px;
                     span {
                         font-size: 11px;
                         font-weight: 600;
-                        color: #444;
+                        color: @color-gray-444;
                     }
                 }
                 &:hover {
@@ -470,7 +476,7 @@ body {
             font-weight: 500;
             color: rgba(68, 68, 68, 0.6);
             span {
-                color: #444;
+                color: @color-gray-444;
             }
         }
     }
@@ -534,7 +540,7 @@ body {
                 p {
                     font-size: 15px;
                     font-weight: 500;
-                    color:#444;
+                    color:@color-gray-444;
                     padding-right: 53px;
                 }
                 .block-item2>p {
@@ -564,7 +570,7 @@ body {
             background-repeat: no-repeat;
             background-size: 110%;
             background-position: center;
-            color: #444;
+            color: @color-gray-444;
             .reviews {
                 width: 436px;
                 height: 140px;
@@ -630,7 +636,7 @@ body {
                 }
                 .media_block-text p, .media_block-text h3 {
                     margin: 0;
-                    color: #444;
+                    color: @color-gray-444;
                 }
                 .media_block-text h3 {
                     font-size: 32px;
@@ -657,7 +663,7 @@ body {
             margin: 52px auto 146px;
             text-align: center;
             .play {
-                color: #444;
+                color: @color-gray-444;
                 background-color: transparent;
                 border: 1px solid #000;
                 padding: 17px 26px;

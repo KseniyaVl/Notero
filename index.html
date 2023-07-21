@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css">
     <title>Notero</title>
   </head>
   <body>
@@ -54,26 +55,73 @@
             </div>
             </menu>
         </nav>
+        <!-- Мобильный нав -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                    <li><a class="dropdown-item" href="#">Lorem</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Конец мобильного нава -->
+
         <div class="header__block">
           <div class="left">  
               <p class="chapter">Notero-Easy Note App</p>     
             <h1>Note <span class="gradient">Your Everything </span> In One App</h1>
             <p class="inside">No Coding required to make customization. the live customizer has everything you need.</p>
-            <div class="button__block">
-              <a href="#">
-                <button class="violet">
-                <img src="img/icon/Apple Logo.png" alt="">
-                |  Download App
-              </button></a>
-              <a href="#">
-                <button class="inverse">
-                <i class="fas fa-regular fa-play"></i>
-                <p>View Promotion</p></button>
-              </a>
-            </div>
-            <div class="button__block_2">
-              <img src="img/icon/icon_loading.png" alt=""><p>Free 14 Days Trial</p>
-              <img src="img/icon/icon_loading.png" alt=""><p>One Time Payment</p>
+            <div class="buttons">
+              <div class="button__block">
+                <a href="#">
+                  <button class="violet">
+                  <img src="img/icon/Apple Logo.png" alt="">
+                  |  Download App
+                </button></a>
+                <a href="#">
+                  <button class="inverse">
+                  <i class="fas fa-regular fa-play"></i>
+                  <p>View Promotion</p></button>
+                </a>
+              </div>
+              <div class="button__block_2">
+                <img src="img/icon/icon_loading.png" alt=""><p>Free 14 Days Trial</p>
+                <img src="img/icon/icon_card.png" alt=""><p>One Time Payment</p>
+              </div>
             </div>
           </div>
           <div class="right">
@@ -110,6 +158,7 @@
           <img src="img/opportunities/item5.png" alt="">
             <p>Write and Draw <br>on Ipad</p>
           </img></div>
+
       </div>
     </section>
     <section class="creative">

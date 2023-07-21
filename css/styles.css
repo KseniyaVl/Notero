@@ -3,11 +3,14 @@ body {
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
 }
+body .navbar {
+  display: none;
+}
 body .chapter {
   text-align: center;
   font-size: 17px;
   font-weight: 500;
-  color: #6953D3;
+  color: #6953d3;
   border: 1px solid #edebf9;
   background-color: #edebf9;
   border-radius: 7px;
@@ -18,7 +21,7 @@ body .chapter {
 }
 body h2 {
   font-size: 40px;
-  color: #333;
+  color: #333333;
   font-weight: 700;
   margin: 0 auto;
 }
@@ -32,7 +35,7 @@ body .violet {
   display: flex;
   align-items: center;
   text-align: center;
-  background-color: #6953D3;
+  background-color: #6953d3;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -48,16 +51,16 @@ body .violet:hover {
 body .inverse {
   display: flex;
   align-items: center;
-  color: #333;
+  color: #333333;
   font-size: 17px;
   font-weight: 500;
   transition: 0.4s ease;
 }
 body .inverse i {
   font-size: 36px;
-  color: #6953D3;
+  color: #6953d3;
   padding: 12px 12px 12px 17px;
-  border: 1px solid #6953D3;
+  border: 1px solid #6953d3;
   border-radius: 50%;
   margin-right: 13px;
 }
@@ -103,10 +106,10 @@ body nav menu ul li {
   padding-left: 43px;
   font-size: 17px;
   font-weight: 700;
-  color: #444;
+  color: #444444;
 }
 body nav menu ul li:hover {
-  color: #6953D3;
+  color: #6953d3;
 }
 body nav menu ul li:nth-child(3n+1),
 body nav menu ul li:nth-child(4n+1) {
@@ -136,7 +139,7 @@ body nav menu ul .dropbtn_menu {
   margin-right: 61px;
 }
 body nav menu ul .dropdown-content_menu a {
-  color: #444;
+  color: #444444;
   font-weight: 500;
   padding: 2px 0 2px 30px;
   text-decoration: none;
@@ -149,7 +152,7 @@ body nav menu ul .dropdown-content_menu a:first-child {
 }
 body nav menu ul .dropdown-content_menu a:hover {
   background-color: #E9E5F9;
-  color: #6953D3;
+  color: #6953d3;
 }
 body nav menu ul .dropdown_menu:hover .dropdown-content_menu {
   display: block;
@@ -163,10 +166,10 @@ body nav .login a img {
 }
 body nav .login button {
   margin-right: 80px;
-  color: #444;
+  color: #444444;
   font-weight: 400;
   font-size: 9px;
-  border: 1px solid #444;
+  border: 1px solid #444444;
   border-radius: 13px;
   padding: 7px 11px;
 }
@@ -178,7 +181,7 @@ body header {
 }
 body header .banner {
   height: 78px;
-  background-color: #6953D3;
+  background-color: #6953d3;
   background-image: url(../img/bgr_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +191,7 @@ body header .banner {
   padding-bottom: 12px;
 }
 body header .banner button {
-  color: #444;
+  color: #444444;
   font-weight: 500;
   font-size: 12px;
   padding: 6px 17px 6px 18px;
@@ -235,13 +238,13 @@ body header .header__block .left {
 body header .header__block .left h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #333;
+  color: #333333;
   margin-bottom: 19px;
 }
 body header .header__block .left .inside {
   font-size: 20px;
   font-weight: 500;
-  color: #333;
+  color: #333333;
   opacity: .6;
   margin-bottom: 50px;
 }
@@ -270,7 +273,7 @@ body header .header__block .left .button__block_2 img {
 body header .header__block .left .button__block_2 p {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: #333333;
   margin-right: 78px;
   margin-bottom: 0;
 }
@@ -292,10 +295,10 @@ body .features h3 {
   font-size: 30px;
   font-weight: 600;
   text-align: center;
-  color: #333;
+  color: #333333;
 }
 body .features h3 span {
-  color: #6953D3;
+  color: #6953d3;
 }
 body .features .partners {
   margin-top: 80px;
@@ -310,7 +313,7 @@ body .features .partners img:last-child {
   margin-right: 0;
 }
 body .features .line {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #444444;
   margin: 55px 80px 22px;
 }
 body .features .chapter {
@@ -410,7 +413,7 @@ body .security .left .accordion .accordion-item .accordion-button {
 }
 body .security .left .accordion .accordion-item .collapsed {
   background-color: transparent;
-  color: #444;
+  color: #444444;
 }
 body .security .left .accordion .accordion-item .accordion-body {
   font-weight: 500;
@@ -432,17 +435,17 @@ body .security .left .google img {
 body .security .left .google p {
   width: 110px;
   text-align: left;
-  color: #333;
+  color: #333333;
   font-size: 10px;
   font-weight: 500;
   margin-bottom: 0;
-  border-left: 1px solid #333;
+  border-left: 1px solid #333333;
   padding-left: 6px;
 }
 body .security .left .google p span {
   font-size: 11px;
   font-weight: 600;
-  color: #444;
+  color: #444444;
 }
 body .security .left .google:hover {
   background-color: rgba(0, 0, 0, 0.4);
@@ -469,7 +472,7 @@ body .dark_theme .right ul li {
   color: rgba(68, 68, 68, 0.6);
 }
 body .dark_theme .right ul li span {
-  color: #444;
+  color: #444444;
 }
 body .popular {
   margin: 45px auto 0;
@@ -534,7 +537,7 @@ body .customers .left .block h3 {
 body .customers .left .block p {
   font-size: 15px;
   font-weight: 500;
-  color: #444;
+  color: #444444;
   padding-right: 53px;
 }
 body .customers .left .block .block-item2 > p {
@@ -562,7 +565,7 @@ body .customers .right {
   background-repeat: no-repeat;
   background-size: 110%;
   background-position: center;
-  color: #444;
+  color: #444444;
 }
 body .customers .right .reviews {
   width: 436px;
@@ -629,7 +632,7 @@ body .media .media_blocks .media_block i {
 body .media .media_blocks .media_block .media_block-text p,
 body .media .media_blocks .media_block .media_block-text h3 {
   margin: 0;
-  color: #444;
+  color: #444444;
 }
 body .media .media_blocks .media_block .media_block-text h3 {
   font-size: 32px;
@@ -655,7 +658,7 @@ body footer .button__block {
   text-align: center;
 }
 body footer .button__block .play {
-  color: #444;
+  color: #444444;
   background-color: transparent;
   border: 1px solid #000;
   padding: 17px 26px;
