@@ -365,7 +365,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
-        gap: 15px; */
+        gap: 15px; 
         flex-wrap: wrap;
         align-items: center;
         justify-items: center;
