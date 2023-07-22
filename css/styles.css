@@ -265,6 +265,10 @@ body header .header__block .left .button__block_2 {
   display: flex;
   align-items: center;
 }
+body header .header__block .left .button__block_2 div {
+  display: flex;
+  align-items: center;
+}
 body header .header__block .left .button__block_2 img {
   margin-right: 9px;
   width: 43px;
@@ -338,7 +342,6 @@ body .features .opportunities p {
 }
 body .creative {
   display: flex;
-  height: 650px;
 }
 body .creative .left {
   width: 50%;
