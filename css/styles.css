@@ -7,6 +7,7 @@ body .navbar {
   display: none;
 }
 body .chapter {
+  display: inline-block;
   text-align: center;
   font-size: 17px;
   font-weight: 500;
@@ -14,16 +15,14 @@ body .chapter {
   border: 1px solid #edebf9;
   background-color: #edebf9;
   border-radius: 7px;
-  padding: 12px;
-  width: 210px;
-  height: 45px;
-  margin-bottom: 46px;
+  padding: 12px 18px;
+  margin-bottom: 9px;
 }
 body h2 {
   font-size: 40px;
   color: #333333;
   font-weight: 700;
-  margin: 0 auto;
+  margin: 0 auto 35px;
 }
 body .gradient {
   background: linear-gradient(90deg, #6953d3 33%, #8566f1 40%, #a14eee, #f98085);
@@ -37,8 +36,6 @@ body .violet {
   text-align: center;
   background-color: #6953d3;
   color: #fff;
-  font-size: 20px;
-  font-weight: 500;
   padding: 19px 26px;
   border-radius: 35px;
   margin-right: 34px;
@@ -235,6 +232,9 @@ body header .header__block .left {
   text-align: left;
   width: 55%;
 }
+body header .header__block .left .chapter {
+  margin-bottom: 46px;
+}
 body header .header__block .left h1 {
   font-size: 60px;
   font-weight: 600;
@@ -293,6 +293,7 @@ body .features {
   margin: 0 auto 45px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 body .features h3 {
   padding-top: 168px;
@@ -321,8 +322,7 @@ body .features .line {
   margin: 55px 80px 22px;
 }
 body .features .chapter {
-  margin: 0 auto;
-  margin-bottom: 12px;
+  margin: 0 auto 9px;
   background-color: #fff;
 }
 body .features h2 {
@@ -355,12 +355,6 @@ body .creative .right {
   width: 50%;
   padding-left: 15px;
 }
-body .creative .right h2 {
-  margin-bottom: 35px;
-}
-body .creative .right .chapter {
-  margin-bottom: 9px;
-}
 body .creative .right button.violet {
   margin-top: 38px;
   padding: 12px 29px;
@@ -386,13 +380,6 @@ body .security {
 }
 body .security .left {
   width: 50%;
-}
-body .security .left .chapter {
-  width: 250px;
-  margin-bottom: 9px;
-}
-body .security .left h2 {
-  margin-bottom: 31px;
 }
 body .security .left .block_text {
   padding-right: 75px;
@@ -481,9 +468,6 @@ body .popular {
   margin: 45px auto 0;
   text-align: center;
 }
-body .popular .chapter {
-  margin: 0 auto 26px;
-}
 body .popular h2 {
   margin-bottom: 20px;
 }
@@ -506,9 +490,6 @@ body .customers {
 }
 body .customers .left {
   width: 50%;
-}
-body .customers .left .chapter {
-  margin-bottom: 9px;
 }
 body .customers .left .block_text {
   margin-bottom: 67px;
@@ -609,9 +590,6 @@ body .customers .right .reviews .signature span {
 }
 body .media {
   text-align: center;
-}
-body .media .chapter {
-  margin: 0 auto 19px;
 }
 body .media .media_blocks {
   display: flex;

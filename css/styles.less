@@ -11,6 +11,7 @@ body {
         display: none;
     }
     .chapter {
+        display: inline-block;
         text-align: center;
         font-size: 17px;
         font-weight: 500;
@@ -18,16 +19,14 @@ body {
         border: 1px solid #edebf9;
         background-color: #edebf9;
         border-radius: 7px;
-        padding: 12px;
-        width: 210px;
-        height: 45px;
-        margin-bottom: 46px;
+        padding: 12px 18px;
+        margin-bottom: 9px;
     }
     h2 {
         font-size: 40px;
         color:@color-gray-333;
         font-weight: 700;
-        margin: 0 auto;
+        margin: 0 auto 35px;
     }
     .gradient {
         background: linear-gradient(90deg, @color-violet 33%, #8566F1 40%, #A14EEE,#F98085);
@@ -41,8 +40,6 @@ body {
         text-align: center;
         background-color: @color-violet;
         color: #fff;
-        font-size: 20px;
-        font-weight: 500;
         padding: 19px 26px;
         border-radius: 35px;
         margin-right: 34px;
@@ -238,6 +235,9 @@ body {
             .left {
                 text-align: left;
                 width: 55%;
+                .chapter {
+                    margin-bottom: 46px;
+                }
                 h1 {
                     font-size: 60px;
                     font-weight: 600;
@@ -299,6 +299,7 @@ body {
         margin: 0 auto 45px;
         display: flex;
         flex-direction: column;
+        text-align: center;
         h3 {
             padding-top: 168px;
             font-size: 30px;
@@ -326,8 +327,7 @@ body {
             margin: 55px 80px 22px;
         }
         .chapter {
-            margin: 0 auto;
-            margin-bottom: 12px;
+            margin: 0 auto 9px;
             background-color: #fff;
         }
         h2 {
@@ -360,12 +360,6 @@ body {
         .right {
             width: 50%;
             padding-left: 15px;
-            h2 {
-                margin-bottom: 35px;
-            }
-            .chapter {
-                margin-bottom: 9px;
-            }
             button.violet {
                 margin-top: 38px;
                 padding: 12px 29px;
@@ -392,13 +386,6 @@ body {
         margin: 40px 40px 63px 81px;
         .left {
             width: 50%;
-            .chapter {
-                width: 250px;
-                margin-bottom: 9px;
-            }
-            h2 {
-                margin-bottom: 31px;
-            }
             .block_text {
                 padding-right: 75px;
                 margin-bottom: 31px;
@@ -487,9 +474,6 @@ body {
     .popular {
         margin: 45px auto 0;
         text-align: center;
-        .chapter {
-            margin: 0 auto 26px;
-        }
         h2 {
             margin-bottom: 20px;
         }
@@ -512,9 +496,6 @@ body {
         margin: 0px 40px 98px 81px;
         .left {
             width: 50%;
-            .chapter {
-                margin-bottom: 9px;
-            }
             .block_text {
                 margin-bottom: 67px;
             }
@@ -618,9 +599,6 @@ body {
     }
     .media {
         text-align: center;
-        .chapter {
-            margin: 0 auto 19px;
-        }
         .media_blocks {
             display: flex;
             justify-content: space-around;
@@ -758,4 +736,3 @@ body {
         }
     }
 }
-
